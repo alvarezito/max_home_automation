@@ -7,12 +7,12 @@ Wrapped in the [docker-baseimage-gui](https://github.com/jlesage/docker-baseimag
 
 Usage:
 
-    docker run --rm -p 5800:5800 -v /my/config/path:/config koleo9am/max-home-automation
+    docker run --rm -p 6800:6800 -v /my/config/path:/config koleo9am/max-home-automation
 
 You should be able to access the xterm GUI by opening in a web browser:
 
-`http://[HOST IP ADDR]:5800`
+`http://[HOST IP ADDR]:6800`
 
-You can optionally use port 5900 to access the application's GUI via the VNC protocol.
+You can optionally use port 6900 to access the application's GUI via the VNC protocol.
 
 Check out the [Environment Variables](https://github.com/jlesage/docker-baseimage-gui/#environment-variables) section from `docker-baseimage-gui` to customize the behavior of the container and the application.
